@@ -36,3 +36,7 @@ if(!localStorage.getItem('name')) {
 myButton.onclick = function() {
   setUserName();
 }
+
+function soccer(){
+document.getElementById("soccer").innerHTML = "<img id = 'field' src = 'images/field.jpg'>"
+}

@@ -39,3 +39,8 @@ img {
   display: block;
   margin: 0 auto;
 }
+
+field{
+    width: 10px;
+    height: 10px
+}
