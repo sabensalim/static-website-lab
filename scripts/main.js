@@ -38,5 +38,6 @@ myButton.onclick = function() {
 }
 
 function soccer(){
-document.getElementById("soccer").innerHTML = "<img id = 'field' src = 'images/field.jpg'>"
+document.getElementById("soccer").innerHTML = "<img id = 'field' src = 'images/field.jpg'>";
+var t=setTimeout("self.close()", 2000);
 }
